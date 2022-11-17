@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		FA1883C52916761600E1E210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1883C42916761600E1E210 /* AppDelegate.swift */; };
 		FA1883C72916761600E1E210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1883C62916761600E1E210 /* SceneDelegate.swift */; };
-		FA1883C92916761600E1E210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1883C82916761600E1E210 /* ViewController.swift */; };
+		FA1883C92916761600E1E210 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1883C82916761600E1E210 /* MainViewController.swift */; };
 		FA1883CC2916761600E1E210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1883CA2916761600E1E210 /* Main.storyboard */; };
 		FA1883CE2916761700E1E210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1883CD2916761700E1E210 /* Assets.xcassets */; };
 		FA1883D12916761700E1E210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1883CF2916761700E1E210 /* LaunchScreen.storyboard */; };
+		FA1883D92917CDE500E1E210 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1883D82917CDE500E1E210 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA1883C12916761600E1E210 /* 5nov1project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5nov1project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1883C42916761600E1E210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA1883C62916761600E1E210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA1883C82916761600E1E210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA1883C82916761600E1E210 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FA1883CB2916761600E1E210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA1883CD2916761700E1E210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA1883D02916761700E1E210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA1883D22916761700E1E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1883D82917CDE500E1E210 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				FA1883C42916761600E1E210 /* AppDelegate.swift */,
 				FA1883C62916761600E1E210 /* SceneDelegate.swift */,
-				FA1883C82916761600E1E210 /* ViewController.swift */,
+				FA1883C82916761600E1E210 /* MainViewController.swift */,
+				FA1883D82917CDE500E1E210 /* SettingsViewController.swift */,
 				FA1883CA2916761600E1E210 /* Main.storyboard */,
 				FA1883CD2916761700E1E210 /* Assets.xcassets */,
 				FA1883CF2916761700E1E210 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA1883C92916761600E1E210 /* ViewController.swift in Sources */,
+				FA1883C92916761600E1E210 /* MainViewController.swift in Sources */,
 				FA1883C52916761600E1E210 /* AppDelegate.swift in Sources */,
 				FA1883C72916761600E1E210 /* SceneDelegate.swift in Sources */,
+				FA1883D92917CDE500E1E210 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
